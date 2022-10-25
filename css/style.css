@@ -1,0 +1,45 @@
+.menu li {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menu li {
+    width: 200px;
+    background-color: rgb(64, 64, 111);
+    color: azure;
+    position: relative;
+}
+
+.menu a {
+    display: block;
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    transition: all 0.3s;
+}
+
+.menu a:hover {
+    background: #808291;
+}
+
+.menu ul {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: none;
+    padding: none;
+}
+
+.menu li:hover > ul {
+    display: block;
+}
+
+.menu ul ul {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    
+}
+
