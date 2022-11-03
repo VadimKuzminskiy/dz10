@@ -19,7 +19,7 @@
     transition: all 0.3s;
 }
 
-.menu a:hover {
+.menu li:hover {
     background: #808291;
 }
 
@@ -40,6 +40,5 @@
     position: absolute;
     top: 0;
     left: 100%;
-    
 }
 
